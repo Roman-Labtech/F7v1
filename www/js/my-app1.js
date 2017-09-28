@@ -270,3 +270,7 @@ function onBackKeyDown(e) {
    e.preventDefault();
    alert('Back Button is Pressed!');
 }
+
+function phonecall(){
+    window.plugins.CallNumber.callNumber(onSuccess, onError, "88313367613", bypassAppChooser);
+}
