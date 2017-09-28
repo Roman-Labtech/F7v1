@@ -5081,7 +5081,7 @@ html.with-statusbar-overlay.ios .popup.tablet-fullscreen {
 }
 .panel.panel-left {
   left: 0;
-        background-color: darkgrey;
+        background-color: #fafafa;
 }
 .panel.panel-left.panel-cover {
   z-index: 6000;
