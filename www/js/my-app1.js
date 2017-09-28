@@ -196,8 +196,8 @@ function check()
     document.MyForm.stopwatch4x.value=valsumm; 
 	document.MyForm.stopwatch2x.value=2; }
               else{
-         myApp.alert('Слишком малое значение времени. Повторите измерение.', '-Ошибка-');
-        ClearСlock();
+    myApp.alert('Слишком малое значение времени. Повторите измерение.', '-Ошибка-');
+    ClearСlock();
 		dateObj = new Date();           
      };
 	main=valsumm; 	 
@@ -269,8 +269,9 @@ document.addEventListener("backbutton", onBackKeyDown, false);
 function onBackKeyDown(e) {
    e.preventDefault();
    alert('Back Button is Pressed!');
-}
+};
 
 function phonecall(){
+    alert("33");
     window.plugins.CallNumber.callNumber(onSuccess, onError, "88313367613", bypassAppChooser);
-}
+};
