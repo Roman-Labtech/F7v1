@@ -1,0 +1,79 @@
+<div class="navbar">
+    <div class="navbar-inner">
+      <div class="left">
+          
+       	<a href="#" class="back link icon-only"><i class="icon icon-back"></i></a>
+       	</div>
+        <div class="center data-ignore-cache=false clear-cache=true"></div>
+        <div class="right">
+            <a href="#" class="link icon-only open-panel"><i class="icon icon-bars"></i></a>
+        </div>
+    </div>
+</div>
+<div class="pages">
+    <div data-page="popkoeff" class="page">
+        <div class="page-content">
+
+    <div class="content-block-title">
+    <h3>Поправочный коэффициент</h3>
+    </div>
+      <div class="content-block">
+Введите температуру, при которой производятся измерения.
+   <!---->
+ <form class="list-block" name="form-temp">
+ <div class="list-block">
+  <ul>
+    <!-- Single radio input -->
+    <li>
+      <label class="label-radio item-content">
+        <!-- Checked by default -->
+        <input type="radio" name="tempizm" value="" checked="checked" onclick="temp()">
+        <div class="item-media">
+          <i class="icon icon-form-radio"></i>
+        </div>
+        <div class="item-inner">
+          <div class="item-title">20 &#8451;</div>
+        </div>
+      </label>
+    </li>
+    <!-- Another radio input -->
+    <li>
+      <label class="label-radio item-content">
+        <input type="radio" name="tempizm" value="" onclick="temp()">
+        <div class="item-media">
+          <i class="icon icon-form-radio"></i>
+        </div>
+        <div class="item-inner">
+          <div class="item-title">21 &#8451;</div>
+        </div>
+      </label>
+    </li>
+        <!-- Another radio input -->
+    <li>
+      <label class="label-radio item-content">
+        <input type="radio" name="tempizm" value="" onclick="temp()">
+        <div class="item-media">
+          <i class="icon icon-form-radio"></i>
+        </div>
+        <div class="item-inner">
+          <div class="item-title">22 &#8451;</div>
+        </div>
+      </label>
+    </li>
+  </ul>
+</div>   
+          </form>     
+        <a href="kalkulator.html" class="button button-fill" name="nextkalk">Далее</a>
+     
+     <script type="text/javascript">
+         var variant=document.getElementsByName('my-radio');
+     if (variant[1].checked==true){
+         alert("2");
+     } ;
+          
+     </script>   
+         </div>  
+          </div>           
+        </div>
+    </div>
+
