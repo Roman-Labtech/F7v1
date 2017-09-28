@@ -64,7 +64,7 @@
     <preference name = "SplashScreenDelay" value = "3000" />
     
     <preference name = "SplashMaintainAspectRatio" value = "true" />
-    <splash src="res/screen.png" />
+    <splash src="res/img/screen.png" />
     
     <platform name="android">
     <!-- you can use any density that exists in the Android project -->
