@@ -112,8 +112,12 @@ if (n == 1) navigator.app.exitApp();
     });
  
   function phonecall1(){
-              window.plugins.CallNumber.callNumber(onSuccess, onError,88313367613, true);
+      
+           window.plugins.CallNumber.callNumber(onSuccess, onError,88313367613, true);
             alert("ccc");
+        }
+        function phonecall2(){
+            alert("phonecall2");
         }
   </script>
    	
@@ -129,6 +133,15 @@ if (n == 1) navigator.app.exitApp();
 			 </div>
          </a>       
       </li>
+        <li class="accordion-item">
+        <a href="#" onclick="phonecall2()" data-ignore-cache="true">
+			<div class="item-inner">
+				<div class="item-title mainlinks panel_white">		 
+		          <i class="material-icons icon-settings">call</i>
+                Позвонить нам 11   </div>       
+			 </div>
+         </a>       
+      </li>          
    	   	 <li class="accordion-item">
 			<div class="item-inner">
 			  <a href="question.html" data-ignore-cache="true" class="graylink close-panel">
@@ -194,7 +207,7 @@ if (n == 1) navigator.app.exitApp();
                 <div class="content-block-inner">
                        <p style="color:#0373cc">
                        
-                 Калькулятор вязкости на показаниях вискозиметра ВЗ-246.
+                           <a href="#" onclick="phonecall2"> Калькулятор вязкости на показаниях вискозиметра ВЗ-246.</a>
                     </p>
                     
      <img src="img/vz-246-stativ1.png" width="50%" style="
