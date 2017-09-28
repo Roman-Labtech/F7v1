@@ -271,7 +271,8 @@ function onBackKeyDown(e) {
    alert('Back Button is Pressed!');
 };
 
-function phonecall(){
-    alert("33");
-    window.plugins.CallNumber.callNumber(onSuccess, onError, "88313367613", bypassAppChooser);
-};
+
+function phonecall()
+{
+    window.plugins.CallNumber.callNumber(onSuccess, onError,88313367613, true);
+}
