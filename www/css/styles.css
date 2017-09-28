@@ -9,6 +9,11 @@
 
    See https://github.com/apache/cordova-plugin-statusbar
 */
+ @font-face {
+    font-family:  'a_lcdnova', sans-serif!important;  
+    src: local('a_lcdnova'), 
+   url('/font/a_lcdnova.ttf') format('truetype');
+}
 
 .statusbar-overlay {
     background: #000000;
