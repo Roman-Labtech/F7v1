@@ -152,13 +152,13 @@ function StartStop() {
 
 function check()
  {  
-     alert("2 mm1");	
+  	
      var variant=document.getElementsByName('my-radio');
      if (variant[0].checked==true)
      {
 
      /*2mm soplo*/ 
-	alert("2 mm2");	
+
     var val;
     val = Number.parseInt(ds)*10;
     var valsumm;     
@@ -175,7 +175,7 @@ function check()
     }
           else{
          myApp.alert('Слишком малое значение времени. Повторите измерение.', '-Ошибка-');
-              alert("2mmm")
+         
         ClearСlock();
 		dateObj = new Date();       
      };
