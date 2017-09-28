@@ -7,7 +7,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="theme-color" content="#2196f3">
-    <meta name="format-detection" content="telephone=no">
+
     <link rel="stylesheet" href="fonts/a_lcdnova.ttf">
     <link rel="stylesheet" href="fonts/a_lcdnova.woff">
     <title>Kalculator</title>
@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/framework7.material.colors.css">
     <link href="http://fonts.googleapis.com/css?family=Roboto:400,300,500,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Rajdhani" rel="stylesheet"> 
+    
     <!-- <link href="http://allfont.ru/allfont.css?fonts=a_lcdnova" rel="stylesheet" type="text/css" />-->
     <link rel="stylesheet" href="css/material-icons.css">
     <link rel="stylesheet" href="css/styles.css">
@@ -110,40 +111,40 @@ if (n == 1) navigator.app.exitApp();
         myApp.closePanel();
     });
  
+        function phonecall1(){
+              window.plugins.CallNumber.callNumber(onSuccess, onError,88313367613, true);
+            alert("ccc");
+        }
   </script>
    	
    
 
     
       <li class="accordion-item">
-        <a href="tel:+1234567" onclick="phonecall()" data-ignore-cache="true">
+        <a href="#" onclick="phonecall1()" data-ignore-cache="true">
 			<div class="item-inner">
 				<div class="item-title mainlinks panel_white">		 
-		  <i class="material-icons icon-settings">call</i>
+		          <i class="material-icons icon-settings">call</i>
                 Позвонить нам   </div>       
 			 </div>
          </a>       
       </li>
-    
    	   	 <li class="accordion-item">
 			<div class="item-inner">
 			  <a href="question.html" data-ignore-cache="true" class="graylink close-panel">
 				<div class="item-title mainlinks panel_white">		 
-		  <i class="material-icons icon-settings">help</i>
-		  Справка</div>   
-		       </a>      
-		    </div>
+		          <i class="material-icons icon-settings">help</i>
+		          Справка</div>   
+		      </a>      
+        </div>
     </li>
-   	  	
-   	<li class="accordion-item">
-        
-			<div class="item-inner">
+   	<li class="accordion-item">        
+		<div class="item-inner">
 			  <a href="#" data-ignore-cache="true" class="graylink" onClick="exitFromApp()">
-
 				<div class="item-title mainlinks panel_white">		 
-		      <i class="material-icons icon-settings">cancel</i> Выход      
+		          <i class="material-icons icon-settings">cancel</i> Выход      
                 </div>
-         </a> 
+             </a> 
         </div> 
    	</li>
 
@@ -270,7 +271,7 @@ if (n == 1) navigator.app.exitApp();
           </div>
         </div>
         <br>
-        <input name="stopwatch" type="text" placeholder="00:00:00" class="" style="font-family: 'a_LCDNova', arial; font-size: 5em; height:70px;"; align:center;>
+        <input name="stopwatch" type="text" placeholder="00:00:00" class="" style="font-family:Rajdhani; font-size: 5em;height:70px;"; align:center;>
         <br>
         <input name="resultpole" type="text" placeholder="00:00:00" class="" style="font-family:Rajdhani; font-size: 5em;height:70px;"; align:center;>
           <br>
